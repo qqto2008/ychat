@@ -1,0 +1,31 @@
+<!--
+  Generated template for the Register page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>register</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+    <ion-item>
+      <ion-input type="text" placeholder="E-mail" [(ngModel)]="registerEmail"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="password" placeholder="Password" [(ngModel)]="registerPassword"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="Name" [(ngModel)]="registerName"></ion-input>
+    </ion-item>
+    <button ion-button block (click)="registerCheck()">Sign Up</button>
+
+
+
+</ion-content>
